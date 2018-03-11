@@ -4,7 +4,7 @@
 
 Quads::Quads() : Window() {
     // Load the shader files.
-    programID = LoadShaders( "../shaders/shader.vs", "../shaders/shader.fs" );
+    programID = LoadShaders( "../quads/shader.vs", "../quads/shader.fs" );
 
     // Create array of quad shapes.
     glm::vec2 trans[100];
